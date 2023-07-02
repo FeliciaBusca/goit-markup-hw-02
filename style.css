@@ -10,8 +10,72 @@
 
 }
 
+.logo-web {
+    color: var(--accent-color);
+    font-family: var(--logo-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.logo-studio-header {
+    color: #000000;
+    font-family: var(--logo-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.logo-studio-footer {
+    color: var(--hero-heading-color);
+    font-family: var(--logo-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.global-header .main-navigation,
+.global-header .main-navigation a:visited {
+    font-family: var(--text-font-family) ;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--heading-color);
+
+}
+
 .hero-section {
     background-color: var(--background-accent-color);
+}
+
+footer {
+    background-color: var(--background-accent-color);
+}
+
+
+
+
+
+address .address-link, 
+address .addres-link a:visited {
+    font-family: var(--text-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--address-color);
+
 }
 
 .hero-heading {
