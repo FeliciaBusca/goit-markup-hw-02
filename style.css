@@ -1,0 +1,26 @@
+:root {
+    --logo-font-family: 'Raleway', sans-serif;
+    --text-font-family: 'Roboto', sans-serif;
+    --accent-color: #2196F3;
+    --heading-color: #212121;
+    --text-color: #757575;
+    --address-color: white;
+    --background-accent-color: #2F303A;
+    --hero-heading-color: white;
+
+}
+
+.hero-section {
+    background-color: var(--background-accent-color);
+}
+
+.hero-heading {
+    color: var(--hero-heading-color);
+    font-family: var(--text-font-family);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+}
