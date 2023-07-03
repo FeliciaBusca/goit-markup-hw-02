@@ -66,11 +66,20 @@ footer {
   color: var(--heading-color);
 }
 
+.global-header .main-navigation,
+.global-header .main-navigation a:visited {
+  color: var(--heading-color);
+}
+
 .global-header .main-navigation .active {
   color: var(--accent-color);
 }
 .global-header .main-navigation,
 .global-header .main-navigation a:hover {
+  color: var(--accent-color);
+}
+.global-header .main-navigation,
+.global-header .main-navigation a:focus {
   color: var(--accent-color);
 }
 
