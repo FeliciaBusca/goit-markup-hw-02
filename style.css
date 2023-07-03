@@ -68,27 +68,27 @@ button {
   text-align: left;
   color: var(--heading-color);
 }
-
 .global-header .main-navigation,
 .global-header .main-navigation a:active {
-  color: var(--heading-color);
+  color: var(--accent-color);
 }
 
-.global-header .main-navigation .active {
-  color: var(--accent-color);
+.global-header .main-navigation,
+.global-header .main-navigation a:visited {
+  color: var(--heading-color);
 }
 .global-header .main-navigation,
-.global-header .main-navigation a:hover {
-  color: var(--accent-color);
-}
-.global-header .main-navigation,
+.global-header .main-navigation a:hover,
 .global-header .main-navigation a:focus {
   color: var(--accent-color);
 }
 
 .e-mail:hover,
+.e-mail:focus,
 .phone-number:hover,
-.contact-link-footer:hover {
+.phone-number:focus,
+.contact-link-footer:hover,
+.contact-link-footer:focus {
   color: var(--accent-color);
 }
 
