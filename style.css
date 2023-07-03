@@ -54,6 +54,9 @@ a {
 footer {
   background-color: var(--background-accent-color);
 }
+button {
+  cursor: pointer;
+}
 
 .global-header .main-navigation,
 .global-header .main-navigation {
