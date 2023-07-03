@@ -70,7 +70,7 @@ button {
 }
 
 .global-header .main-navigation,
-.global-header .main-navigation a:visited {
+.global-header .main-navigation a:active {
   color: var(--heading-color);
 }
 
